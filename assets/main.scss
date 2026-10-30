@@ -1,3 +1,55 @@
 ---
 ---
-@import "portfolYOU";
+
+@import "minima";
+
+body {
+  background: #fff;
+  color: #222;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.wrapper {
+  max-width: 960px;
+}
+
+.site-header {
+  border-top: 4px solid #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.site-nav,
+.post-meta,
+.site-footer {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #245782;
+}
+
+.post-title {
+  font-size: 34px;
+  line-height: 1.3;
+}
+
+.post-list > li {
+  margin-bottom: 36px;
+}
+
+.post-content h2 {
+  margin-top: 36px;
+  font-size: 26px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
