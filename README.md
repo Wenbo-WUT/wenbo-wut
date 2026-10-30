@@ -2,7 +2,7 @@
 **Assistant Professor · School of Navigation · Wuhan University of Technology**
 
 ### About
-I am a Lecturer in the Department of Navigation Engineering at Wuhan University of Technology. My research focuses on intelligent signal processing and sensing, with applications in maritime safety, ship machinery health monitoring, and emergency monitoring.
+I am an Assistant Professor in the School of Navigation at Wuhan University of Technology. My research focuses on intelligent signal processing and sensing, with applications in maritime safety, ship machinery health monitoring, and emergency monitoring.
 
 I received my Ph.D. in Signal and Information Processing from Huazhong University of Science and Technology in 2020, following a bachelor’s degree in Electronic Information Engineering in 2012. From 2021 to 2024, I conducted postdoctoral research in Optical Engineering at the same university. I joined Wuhan University of Technology in December 2024.
 
