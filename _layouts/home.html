@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="home-intro">{{ content }}</div>
+{% for post in site.posts %}
+<article class="blog-entry">
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+  <p class="post-meta">{{ post.date | date: '%-d %B %Y' }}{% if post.categories.size > 0 %} in {{ post.categories | join: ', ' | escape }}{% endif %} · by {{ post.author | default: site.author | escape }}</p>
+  <div class="post-content">{{ post.excerpt }}</div>
+  <a class="read-more" href="{{ post.url | relative_url }}">Read the rest of this entry &raquo;</a>
+</article>
+{% endfor %}

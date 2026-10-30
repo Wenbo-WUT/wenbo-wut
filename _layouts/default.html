@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body>
+    <div class="academic-shell">
+      <header class="academic-header">
+        <a class="academic-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+        <p>{{ site.description | escape }}</p>
+      </header>
+      <nav class="academic-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        {% for path in site.header_pages %}
+          {% assign item = site.pages | where: 'path', path | first %}
+          {% if item %}<a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% endif %}
+        {% endfor %}
+        <a class="feed-link" href="{{ '/feed.xml' | relative_url }}">Subscribe to feed</a>
+      </nav>
+      <div class="academic-columns">
+        <main id="main-content">{{ content }}</main>
+        <aside aria-label="Blog navigation">
+          <section><h2>Recent Posts</h2><ul>
+            {% for post in site.posts limit:5 %}<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>{% endfor %}
+          </ul></section>
+          <section><h2>Archives</h2><ul>
+            {% for post in site.posts %}
+              {% assign month = post.date | date: '%B %Y' %}
+              {% if month != previous_month %}<li>{{ month }}</li>{% assign previous_month = month %}{% endif %}
+              <li class="archive-post"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+            {% endfor %}
+          </ul></section>
+          <section><h2>Categories</h2><ul>
+            {% for category in site.categories %}<li>{{ category[0] | escape }} ({{ category[1].size }})</li>{% endfor %}
+          </ul></section>
+          <section><h2>Contact</h2><a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a></section>
+        </aside>
+      </div>
+      <footer class="academic-footer">{{ site.title | escape }} · <a href="{{ '/feed.xml' | relative_url }}">RSS</a></footer>
+    </div>
+  </body>
+</html>
