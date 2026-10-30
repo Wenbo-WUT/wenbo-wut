@@ -1,16 +1,24 @@
-## Hi there 👋
+# Wenbo Xu
+**Assistant Professor · School of Navigation · Wuhan University of Technology**
 
-<!--
-**Wenbo-WUT/wenbo-wut** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### About
+I am a Lecturer in the Department of Navigation Engineering at Wuhan University of Technology. My research focuses on intelligent signal processing and sensing, with applications in maritime safety, ship machinery health monitoring, and emergency monitoring.
 
-Here are some ideas to get you started:
+I received my Ph.D. in Signal and Information Processing from Huazhong University of Science and Technology in 2020, following a bachelor’s degree in Electronic Information Engineering in 2012. From 2021 to 2024, I conducted postdoctoral research in Optical Engineering at the same university. I joined Wuhan University of Technology in December 2024.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Research Interests
+- Intelligent signal processing and sensing
+- Maritime safety monitoring
+- Ship machinery health monitoring
+- Early fire detection and emergency monitoring
+- Optical aerosol sensing
+
+### Teaching
+- Digital Image Processing
+- Data Structures
+- Machine Learning and Intelligent Computing
+
+### Contact
+**Email:** [xuwenbo@whut.edu.cn](mailto:xuwenbo@whut.edu.cn)  
+**Affiliation:** School of Navigation, Wuhan University of Technology  
+**Location:** Wuhan, China
